@@ -4,7 +4,7 @@ var gulp = require('gulp')
 var $ = require('gulp-load-plugins')()
 var runSequence = require('run-sequence').use(gulp)
 
-require('../yjs/gulpfile.helper.js')(gulp, {
+require('../en-yjs/gulpfile.helper.js')(gulp, {
   polyfills: [],
   entry: './src/Array.js',
   targetName: 'y-array.js',
